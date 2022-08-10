@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login / Sign Up Form</title>
+    <!-- <link rel="shortcut icon" href="/assets/favicon.ico"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form-title">Login</h1>
+            <div class="form-error"></div>
+            <div class="form-input-group">
+                <input type="text" class="form-input" required autofocus placeholder="Username or email">
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <input type="password" class="form-input"  required autofocus placeholder="Password">
+                <div class="form-input-error-message"></div>
+            </div>
+            <button onclick="onclick()" class="btn btn-primary btn-lg">Continue</button>
+            <p class="form-text">
+                <a href="#" class="form-link">Forgot your password?</a>
+            </p>
+            <p class="form-text">
+                <a class="form-link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+            <h1 class="form-title">Create Account</h1>
+            <div class="form-message form-message--error"></div>
+            <div class="form-input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <input type="text" class="form-input" autofocus placeholder="Email Address">
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <input type="password" class="form-input" autofocus placeholder="Password">
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <input type="password" class="form-input" autofocus placeholder="Confirm password">
+                <div class="form-input-error-message"></div>
+            </div>
+            <button class="form-button" type="submit"> <a class="form-link" href="./" id="linkLogin">Continue</a></button>
+            <p class="form-text">
+                <a class="form-link" href="./" id="linkLogin">Already have an account? Sign in</a>
+            </p>
+        </form>
+    </div>
+  
+    <script>
+        var users = {
+            'username': Mitchelle,
+            'email': mitchellegmail.com,
+            'password': mitchelle123
+        };
+        console.log(users)
+        updateSessionStorage(users);
+        function onclick() {
+            var username = "Mitchelle"
+            var email = "mitchellegmail.com"
+            var password = "mitchelle123"
+            var put = document.getElementById("signin").value;
+            if (put == username) {
+                window.location = "todo.html";
+            } else {
+                alert("Enter the correct username/password")
+                document.getElementById("signin").value = "";
+            }
+        }
+
+    </script>
+</body>
