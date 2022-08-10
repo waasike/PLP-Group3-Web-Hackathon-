@@ -9,9 +9,13 @@ This is a web hackathon to engage students to get to collaborate in doing web de
 
 ### Tasks done 
 1. [PORTFOLIO WEBSITE CHALLENGE](https://waasike.github.io/hackathon_portfolio/)
+![SCREENSHOT1](screenshots/screenshot1.png)
 2. [AUTHENTICATION SYSTEM](https://waasike.github.io/hackathon_authentication/)
+![SCREENSHOT2](screenshots/screenshot2.png)
 3. [TODO LIST CHALLENGE](https://waasike.github.io/hackathon_todolist/)
+![SCREENSHOT3](screenshots/screenshot3.png)
 4. [ATM PROGRAM CHALLENGE](https://waasike.github.io/hackathon_atm/)
+![SCREENSHOT4](screenshots/screenshot4.png)
 
 ### Task Description
 1. PORTFOLIO WEBSITE CHALLENGE
@@ -57,5 +61,4 @@ Beatrice Wanjiru
 Gregory Opondi
 David Omondi
 
-### Preview of projects;
 
