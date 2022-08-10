@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP GROUP 3 PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- LINKING THE CSS FILE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div id="home">
+        <nav id="navbar">
+            <button class="hamburger" id="hamburger">
+                <img src="images/hamburger_light.png" id="hamburger-image">
+            </button>
+            <ul id="nav-ul" class="nav-ul">
+                <li>
+                    <h2 id="logo">GROUP 3</h2>
+                </li> 
+                <li><a href="index.html" class="navlinks active">Home</a></li>
+                <li><a href="about.html" class="navlinks">About Us</a></li>
+                <li><a href="project.html" class="navlinks">Projects</a></li>
+                <li><a href="gallery.html" class="navlinks">Gallery</a></li>
+                <li><a href="contact.html" class="navlinks">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="home-section">
+        <div id="home">
+            <button onclick="myFunction()" id="home-button"><img src="images/idea.png" height="23" width="23"></button>
+            <h1 id="home-header" class="home-details">WELCOME TO PLP GROUP THREE</h1>
+            <h6 id="home-small-header" class="smallhome-heading">We are a team of passionate Software Developers who believe in the power of
+                teamwork.</h6>
+            <button id="contact-button"><a href="contact.html" class="navlinks"><img src="images/contact.png"
+                        id="contact-image"></a></button>
+        </div>
+        <!-- <img src="images/group.png" class="home-image"> -->
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slide_1"><img src="images/david.jpeg" class="swiper-img"></div>
+                  <div class="swiper-slide slide_2"><img src="images/steve.jpeg" class="swiper-img"></div>
+                  <div class="swiper-slide slide_3"><img src="images/beatrice.jpeg" class="swiper-img"></div>
+                  <div class="swiper-slide slide_4"><img src="images/mitchelle.jpg" class="swiper-img"></div>
+                  <div class="swiper-slide slide_5"><img src="images/gregory.jpeg" class="swiper-img"></div>
+                </div>
+                <h4 class="instruction">Hold down and swipe cursor</h4>
+            </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
